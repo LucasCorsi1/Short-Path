@@ -154,6 +154,7 @@ namespace GrafoCoyote.Controllers
                 Papaleguas = p;
                 Coyote = c;
             }
+            else validPosition(wid, hgt);
         }
 
         public Bitmap DisplayTerrain(Vertex[,] vertices, int picWid, int picHgt, int cellSize)

@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.panelHeader = new System.Windows.Forms.Panel();
+            this.lblCost = new System.Windows.Forms.Label();
             this.btnSolve = new System.Windows.Forms.Button();
             this.btnCriar = new System.Windows.Forms.Button();
             this.numTamanhoBlc = new System.Windows.Forms.NumericUpDown();
@@ -56,7 +57,6 @@
             this.pictureBox45 = new System.Windows.Forms.PictureBox();
             this.pictureBox46 = new System.Windows.Forms.PictureBox();
             this.picTerrain = new System.Windows.Forms.PictureBox();
-            this.lblCost = new System.Windows.Forms.Label();
             this.panelHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numTamanhoBlc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numAltura)).BeginInit();
@@ -91,6 +91,18 @@
             this.panelHeader.Name = "panelHeader";
             this.panelHeader.Size = new System.Drawing.Size(1051, 125);
             this.panelHeader.TabIndex = 0;
+            // 
+            // lblCost
+            // 
+            this.lblCost.AutoSize = true;
+            this.lblCost.BackColor = System.Drawing.Color.Transparent;
+            this.lblCost.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCost.ForeColor = System.Drawing.Color.White;
+            this.lblCost.Location = new System.Drawing.Point(539, 20);
+            this.lblCost.Name = "lblCost";
+            this.lblCost.Size = new System.Drawing.Size(91, 18);
+            this.lblCost.TabIndex = 28;
+            this.lblCost.Text = "Custo Total:";
             // 
             // btnSolve
             // 
@@ -306,7 +318,7 @@
             // pictureBox40
             // 
             this.pictureBox40.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox40.Image")));
-            this.pictureBox40.Location = new System.Drawing.Point(31, 454);
+            this.pictureBox40.Location = new System.Drawing.Point(30, 454);
             this.pictureBox40.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox40.Name = "pictureBox40";
             this.pictureBox40.Size = new System.Drawing.Size(40, 40);
@@ -383,9 +395,9 @@
             // pictureBox44
             // 
             this.pictureBox44.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox44.Image")));
-            this.pictureBox44.Location = new System.Drawing.Point(16, 533);
+            this.pictureBox44.Location = new System.Drawing.Point(30, 553);
             this.pictureBox44.Name = "pictureBox44";
-            this.pictureBox44.Size = new System.Drawing.Size(55, 60);
+            this.pictureBox44.Size = new System.Drawing.Size(41, 40);
             this.pictureBox44.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox44.TabIndex = 51;
             this.pictureBox44.TabStop = false;
@@ -393,9 +405,9 @@
             // pictureBox45
             // 
             this.pictureBox45.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox45.Image")));
-            this.pictureBox45.Location = new System.Drawing.Point(16, 434);
+            this.pictureBox45.Location = new System.Drawing.Point(30, 454);
             this.pictureBox45.Name = "pictureBox45";
-            this.pictureBox45.Size = new System.Drawing.Size(55, 60);
+            this.pictureBox45.Size = new System.Drawing.Size(41, 40);
             this.pictureBox45.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox45.TabIndex = 52;
             this.pictureBox45.TabStop = false;
@@ -403,9 +415,9 @@
             // pictureBox46
             // 
             this.pictureBox46.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox46.Image")));
-            this.pictureBox46.Location = new System.Drawing.Point(16, 158);
+            this.pictureBox46.Location = new System.Drawing.Point(31, 178);
             this.pictureBox46.Name = "pictureBox46";
-            this.pictureBox46.Size = new System.Drawing.Size(55, 60);
+            this.pictureBox46.Size = new System.Drawing.Size(40, 40);
             this.pictureBox46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox46.TabIndex = 53;
             this.pictureBox46.TabStop = false;
@@ -421,18 +433,6 @@
             this.picTerrain.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.picTerrain.TabIndex = 54;
             this.picTerrain.TabStop = false;
-            // 
-            // lblCost
-            // 
-            this.lblCost.AutoSize = true;
-            this.lblCost.BackColor = System.Drawing.Color.Transparent;
-            this.lblCost.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCost.ForeColor = System.Drawing.Color.White;
-            this.lblCost.Location = new System.Drawing.Point(539, 20);
-            this.lblCost.Name = "lblCost";
-            this.lblCost.Size = new System.Drawing.Size(91, 18);
-            this.lblCost.TabIndex = 28;
-            this.lblCost.Text = "Custo Total:";
             // 
             // FormMain
             // 

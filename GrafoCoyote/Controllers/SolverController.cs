@@ -31,9 +31,9 @@ namespace GrafoCoyote.Controllers
             while (unvisited.Count > 0)
             {
                 u = MenorDist(unvisited);
-                unvisited.Remove(u);
                 if (u == null) return false;
 
+                unvisited.Remove(u);
                 foreach (Connections con in u.connections)
                 {
                     if (con.ConnectedVertex.minPath == int.MaxValue)

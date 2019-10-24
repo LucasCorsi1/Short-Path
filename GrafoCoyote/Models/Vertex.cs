@@ -25,11 +25,13 @@ namespace GrafoCoyote.Models
         // Desenhe um círculo .
         public void DrawCenter(Graphics gr, Brush brush, int cellSize)
         {
-            float size = cellSize / 3;
-            int cx = Bounds.Left + Bounds.Width / 2;
-            int cy = Bounds.Top + Bounds.Height / 2;
+              float size = cellSize / 3;
+              int cx = Bounds.Left + Bounds.Width / 2;
+              int cy = Bounds.Top + Bounds.Height / 2;
 
-            gr.FillEllipse(brush, cx - size / 2, cy - size / 2, size, size);
+              gr.FillEllipse(brush, cx - size / 2, cy - size / 2, size, size);
+
+
         }
 
         public void DrawBlock(Graphics gr, Pen pen)
